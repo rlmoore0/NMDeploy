@@ -1,0 +1,17 @@
+Package: NymbulCredentials
+Type: Package
+Title: Stores Nymbul Mineral Credentials to the OS keyring
+Version: 1.0.3
+Author: Hector E. Perez Perez
+Maintainer: Hector E. Perez Perez <hectorperez@biztransform.net>
+Description: Nymbul Mineral authentication information is stored in 
+             encrypted files using the OS keyring.
+Depends: R6, keyring
+Imports: dplyr,
+         checkmate, 
+         stringi,
+         magrittr,
+         keyring
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
